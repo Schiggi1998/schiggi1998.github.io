@@ -44,6 +44,9 @@ body{
 .blocksatz{
     text-align: justify;
 }
+.center{
+    text-align: center;
+}
 ul.breadcrumb{
     padding: 10px 16px;
     list-style: none;
@@ -70,6 +73,9 @@ ul.mainList{
     padding: 10px 16px;
     list-style: none;
     background-color: #777;
+}
+ul.mainList li{
+    font-size: 18px;
 }
 ul.mainList li a{
     color: white;
