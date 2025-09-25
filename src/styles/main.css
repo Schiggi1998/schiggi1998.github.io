@@ -66,3 +66,16 @@ ul.breadcrumb li a:hover{
     color: #aaa;
     text-decoration: underline;
 }
+ul.mainList{
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #777;
+}
+ul.mainList li a{
+    color: white;
+    text-decoration: none;
+}
+ul.mainList li a:hover{
+    color: #aaa;
+    text-decoration: underline;
+}
