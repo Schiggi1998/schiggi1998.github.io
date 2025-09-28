@@ -1,45 +1,48 @@
 body{
-    background-color: #555;
-    color: white;
+    background-color: #f7f0eb;
+    color: black;
     font-size: 17px;
 }
 .mobile.container{
     max-width: 480px;
     margin: auto;
-    background-color: #555;
+    background-color: #ffd6b8;
     height: 500px;
-    color: white;
+    color: #ffd6b8;
     border-radius: 10px;
 }
 .topnav{
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffd6b8;
     position: relative;
+    border-radius: 10px;
 }
 .topnav #myLinks {
     display: none;
 }
 .topnav a{
-    color: white;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
 }
 .topnav a.icon{
-    background: black;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
 }
 .topnav a:hover{
-    background-color: #93a153;
+    background-color: #beab9d;
+    color: black;
+}
+.topnav a:visited{
     color: black;
 }
 .active{
-    background-color: #657035;
-    color: white;
+    background-color: #ffd6b8;
+    color: black;
 }
 .blocksatz{
     text-align: justify;
@@ -50,7 +53,8 @@ body{
 ul.breadcrumb{
     padding: 10px 16px;
     list-style: none;
-    background-color: #777;
+    background-color: #c2b0a3;
+    border-radius: 10px;
 }
 ul.breadcrumb li{
     display: inline;
@@ -62,30 +66,31 @@ ul.breadcrumb li+li:before{
     content: "/\00a0";
 }
 ul.breadcrumb li a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 ul.breadcrumb li a:hover{
-    color: #aaa;
+    color: black;
     text-decoration: underline;
 }
 ul.mainList{
     padding: 10px 16px;
     list-style: none;
-    background-color: #777;
+    background-color: #c2b0a3;
+    border-radius: 10px;
 }
 ul.mainList li{
     font-size: 18px;
 }
 ul.mainList li a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 ul.mainList li a:hover{
-    color: #aaa;
+    color: black;
     text-decoration: underline;
 }
 a:link, a:visited{
-    color: white;
+    color: black;
     text-decoration: underline;
 }
