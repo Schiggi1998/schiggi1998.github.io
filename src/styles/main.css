@@ -6,14 +6,14 @@ body{
 .mobile.container{
     max-width: 480px;
     margin: auto;
-    background-color: #ffd6b8;
+    background-color: #f86700;
     height: 500px;
-    color: #ffd6b8;
+    color: #ff6a00;
     border-radius: 10px;
 }
 .topnav{
     overflow: hidden;
-    background-color: #ffd6b8;
+    background-color: #ff6a00;
     position: relative;
     border-radius: 10px;
 }
@@ -34,14 +34,14 @@ body{
     top: 0;
 }
 .topnav a:hover{
-    background-color: #beab9d;
+    background-color: #a3fd79;
     color: black;
 }
 .topnav a:visited{
     color: black;
 }
 .active{
-    background-color: #ffd6b8;
+    background-color: #cef585;
     color: black;
 }
 .blocksatz{
