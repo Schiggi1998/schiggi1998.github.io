@@ -94,6 +94,8 @@ a:link, a:visited{
     color: black;
     text-decoration: underline;
 }
+/*Style für mögliche Steckbriefe
+    - Möglicherweise müsste der Hintergrund noch angepasst werden*/
 .steckbrief{
     border-style: solid;
     border-radius: 4px;
@@ -101,4 +103,11 @@ a:link, a:visited{
     padding: 15px;
     text-align: justify;
     background-color: #e0caba;
+}
+/*Style für aktuelle Bilder
+    - Möglicherweise müsste der Hintergrund noch angepasst werden*/
+.bilder{
+    width: 100%;
+    border-radius: 10px;
+    max-width: 120%;
 }
