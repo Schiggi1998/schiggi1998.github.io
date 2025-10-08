@@ -104,8 +104,7 @@ a:link, a:visited{
     text-align: justify;
     background-color: #e0caba;
 }
-/*Style für aktuelle Bilder
-    - Möglicherweise müsste der Hintergrund noch angepasst werden*/
+/*Style für aktuelle Bilder*/
 .bilder{
     display: block;
     margin-left: auto;
