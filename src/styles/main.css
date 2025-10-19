@@ -113,3 +113,17 @@ a:link, a:visited{
     max-width: 100%;
     height: auto;
 }
+/*Style für alle Tabellen*/
+table{
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+}
+th{
+    background-color: #cead96;
+}
+tr{
+    border: 1px solid #dddddd;
+}
