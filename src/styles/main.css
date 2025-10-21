@@ -113,17 +113,45 @@ a:link, a:visited{
     max-width: 100%;
     height: auto;
 }
-/*Style für alle Tabellen*/
-table{
+/*Style für allgemeine Tabellen*/
+table.allgemeine{
     border-collapse: collapse;
     border: 1px solid #dddddd;
     text-align: left;
     width: 100%;
     max-width: 100%;
 }
-th{
+table.allgemeine th{
     background-color: #cead96;
 }
-tr{
+table.allgemeine tr{
+    border: 1px solid #dddddd;
+}
+/*Style für Vorteile Tabellen*/
+table.vorteile{
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+}
+table.vorteile th{
+    background-color: #6c7457;
+}
+table.vorteile tr{
+    border: 1px solid #dddddd;
+}
+/*Style für Vorteile Tabellen*/
+table.nachteile{
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+}
+table.nachteile th{
+    background-color: #4e3030;
+}
+table.nachteile tr{
     border: 1px solid #dddddd;
 }
