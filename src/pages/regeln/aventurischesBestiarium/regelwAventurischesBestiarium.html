@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <script src="../../../js/navBar.js"></script>
+</head>
+<body>
+    <div class="mobile-container">
+        <div class="topnav">
+            <a href="../regelnmain.html" class="active">Regelwerke</a>
+            <div id="myLinks">
+                <a href="../../../../index.html">Home</a>
+                <a href="#char">Charakter</a>
+                <a href="../../regeln/regelnmain.html">Regelwerke</a>
+                <a href="../../wiki/wikimain.html">Wiki</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="navbarOeffnen()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div style="padding-left: 16px; padding-right: 14px;">
+
+            <ul class="breadcrumb">
+                <li><a href="../regelnmain.html">Regelwerke</a></li>
+            </ul>
+
+            <h2 class="center">Aventurisches Bestiarium</h2>
+            <img src="../../../pictures/fauna/bestiariumDeckblatt.png" alt="Deckblatt" class="bilder">
+
+            <h3>Aufbau der Kreaturenbeschreibung</h3>
+            <p class="steckbrief">
+                <strong>Größe:</strong> Wie groß wird das Tier? Wie ist die Spannweite der Flügel?<br>
+                <strong>Gewicht:</strong> Wie schwer wird das Wesen? Auch hier steht meist eine Spanne in Stein.<br>
+                <strong>Eigenschaften:</strong> Angaben zu Mut, Klugheit, Intuition, Charisma, Fingerfertigkeit, Gewandtheit, Konstitution und Körperkraft<br>
+                <strong>LeP:</strong> Dies ist die Anzahl der Lebenspunkte des Wesens. Am Ende der Beschreibung gibt es zudem einen Anzeiger, ab wann ein Wesen durch niedrige LE Schmerz erleidet.<br>
+                <strong>AsP:</strong> Wenn das Wesen über Astralenergie verfügt, so ist sie hier aufgeführt.<br>
+                <strong>KaP:</strong> Falls das Wesen Karmapunkte hat, sind sie hier angegeben.<br>
+                <strong>INI:</strong> Der Initiativewert wird meist um einen oder mehrere W6 modifiziert.<br>
+                <strong>RS/BE:</strong> Der natürliche Rüstungsschutz eines Wesens. Externe Rüstungen sind zusätzlich vermerkt.<br>
+                <strong>SK:</strong> Seelenkraftwert<br>
+                <strong>ZK:</strong> Zähigkeitswert<br>
+                <strong>GS:</strong> Geschwindigkeitswert<br>
+                <strong>AT:</strong> Attackewert<br>
+                <strong>PA:</strong> Paradewert<br>
+                <strong>AW:</strong> Ausweichenwert<br>
+                <strong>VW:</strong> Bei Nichthumanoiden ist statt PA und AW nur ein Verteidigungswert angegeben.
+                Bei Verteidigungen zählt immer dieser Wert. Auch bei mehrfachem Einsatz in der gleichen Kampfrunde wird dieser nicht gesenkt.
+                Sonstige Erschwernisse, etwa durch einen Zustand oder Status, senken den VW aber wie üblich. Gelingt die Probe auf VW, dann erleidet der Verteidiger keinen Schaden.<br>
+                <strong>FK:</strong> Fernkampfwert<br>
+                <strong>LZ:</strong> Ladezeit für Fernkampfangriffe, angegeben in Aktionen.<br>
+                <strong>TP:</strong> Trefferpunkte der benutzten Waffe bzw. des benutzten Angriffs.<br>
+                <strong>RW:</strong> Die Reichweiten der Angriffe des Wesens. Bei Nahkampfreichweiten gibt es die Einteilung kurz, mittel oder lang. Bei Fernkampfwaffen sind drei Entfernungen kurz, mittel oder weit jeweils in Schritt angegeben..<br>
+                <strong>Aktionen:</strong> Die Zahl der Aktionen pro Kampfrunde. Hat ein Wesen mehreren Aktionen, müssen diese direkt hintereinander ausgeführt werden. Bei den Angriffsarten ist jeweils angegeben, wie oft sie in einer KR ausgeführt werden dürfen..<br>
+                <strong>Vor- und Nachteile:</strong> Bei Kulturschaffenden und einigen anderen Wesenheiten sind hier typische Vor- und Nachteile angegeben.<br>
+                <strong>Sonderfertigkeiten:</strong> Eine Auflistung der Sonderfertigkeiten. Sollte ein Wesen über verschiedene Angriffsarten verfügen, so ist bei den Sonderfertigkeiten in Klammern aufgelistet, mit welcher Angriffsart diese SF ausgeführt werden kann.
+                Ist keine Angabe vorhanden, so handelt es sich um eine passive SF. Zur Unterscheidung zwischen passiven SF, Basis-SF und Spezial-SF.<br>
+                <strong>Talente:</strong> Talente, insbesondere Körperbeherrschung, Selbstbeherrschung, Sinnesschärfe, Verbergen, Einschüchtern (inklusive der Eigenschaftswerte, auf die die Probe durchgeführt wird).<br>
+                <strong>Zauber/Liturgien:</strong> Falls das Wesen Zauber oder Liturgien beherrscht, sind sie hier aufgeführt.<br>
+                <strong>Anzahl:</strong> Wenn das Wesen ein Einzelgänger ist, ist hier eine 1 angegeben.
+                Die Anzahl bei größeren Tiergruppen wird in der Regel mit einem Würfelwurf bestimmt. Manchmal ist beides aufgeführt, dies bedeutet, dass beide Varianten vorkommen können.<br>
+                <strong>Typus:</strong> Zielkategorie, humanoid oder nicht humanoid.<br>
+                <strong>Anrufungs-/Erschaffungsschwierigkeit:</strong> Bei beschwöroder erschaffbaren Wesen ist dies der Modifikator für das Anrufen bzw. das Erschaffen.
+                Geister, Dämonen und Elementare haben eine Anrufungsschwierigkeit, während Untote, Golems, Chimären und Daimonide eine Erschaffungsschwierigkeit aufweisen.<br>
+                <strong>Größenkategorie:</strong> die Größenkategorie des Wesens.<br>
+                <strong>Beute:</strong> Was kann man bei einem Tier verwerten und was erhält man im Schnitt dafür? Sollte die Angabe „zähes Fleisch“ enthalten sein, so ist das Fleisch essbar, aber nicht schmackhaft. Ungenießbares Fleisch ist überhaupt nicht essbar.
+                Bei Giften ist hier der Preis angegeben, den Helden üblicherweise erhalten, wenn sie das Gift verkaufen. Der Preis beträgt 25% vom Kaufwert des Giftes bei einem Giftmischer.<br>
+                <strong>Kampfverhalten:</strong> Hier sind Anmerkungen zum Einsatz der Sonderfertigkeiten aufgeführt, ebenso wie besondere Taktiken und Vorgehensweisen des Wesens.<br>
+                <strong>Flucht:</strong> Hier steht, wann das Wesen normalerweise einen Kampf abbricht. Gelegentlich kämpfen sie jedoch auch länger, z.B. wenn sie sich in die Enge getrieben fühlen.<br>
+                <strong>Erfahren/Kompetent:</strong> Die Werte von Kukturschaffenden sind immer nach dem Vorbild des Erfahrungsgrades Durchschnittlich entworfen. Zusätzlich gibt es Modifikatoren für die Erfahrunsgrade Erfahren und Kompetent.<br>
+                <strong>Tierkunde / Fischen & Angeln / Götter & Kulte / Pflanzenkunde / Magiekunde / Sphärenkunde:</strong> Hier ist angegeben, was ein Held bei einer erfolgreichen Probe auf Tierkunde / Fischen & Angeln / Pflanzenkunde / Magiekunde / Sphärenkunde (unterschiedliche Anwendungsgebiete) und der entsprechenden Menge an Qualitätsstufen über Besonderheiten des Wesens weiß.
+                Dies können z.B. Schwächen oder spezielle Manöver des Gegners sein. Bei Tieren und Ungeheuern wird üblicherweise auf Tierkunde gewürfelt (oder bei Wasserlebewesen auf Fischen & Angeln), bei Untoten oder Geistern auf Magiekunde und bei Wesen aus fremden Sphären wie Dämonen und Elementarwesen auf Sphärenkunde.
+                Einige Wesen sind Pflanzen und deshalb kann auch eine Probe auf Pflanzenkunde notwendig sein, um etwas herauszufinden.
+                Sehr selten kommt Götter & Kulte zum Tragen, dann meist bei Wesen mit karmalen Kräften wie etwa Greife.<br>
+                <strong>Jagd:</strong> An dieser Stelle ist der Jagdmodifikator des Tiers angegeben.<br>
+                <strong>Sonderregeln:</strong> Besondere Regelungen, etwa Gifte, spezielle Angriffe oder Übertragung von Krankheiten werden hier erläutert.<br>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
