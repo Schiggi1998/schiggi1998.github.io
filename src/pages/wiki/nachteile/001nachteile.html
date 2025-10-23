@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <script src="/src/js/navBar.js"></script>
+</head>
+<body>
+    <div class="mobile-container">
+        <div class="topnav">
+            <a href="/src/pages/wiki/wikimain.html" class="active">Wiki</a>
+            <div id="myLinks">
+                <a href="../../../../index.html">Home</a>
+                <a href="#char">Charakter</a>
+                <a href="../../regeln/regelnmain.html">Regelwerke</a>
+                <a href="../wikimain.html">Wiki</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="navbarOeffnen()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div style="padding-left: 16px; padding-right: 14px;">
+            <h2 class="center">Nachteile</h2>
+
+            <p class="blocksatz">Während der Heldenerschaffung kannst du deinen Abenteurer mit Vor- und Nachteilen ausstatten, um nützliche Fähigkeiten für das Spiel zu erwerben oder den Hintergrund des Helden zu vertiefen.
+                Anders als die später beschriebenen Sonderfertigkeiten sind Vor- und Nachteile üblicherweise nur während der Heldenerschaffung wählbar.
+                Sie sind schlicht und ergreifend in den meisten Fällen angeboren und nicht erlernbar.
+                In einigen Ausnahmefällen kann es aber sein, dass ein Held während seiner Abenteurerlaufbahn einen Vorteil erwerben kann oder vom Meister einen Nachteil bekommt.</p>
+
+            <ul class="mainList">
+                <li><a href="#angstvor">Angst vor I - III</a></li>
+                <li><a href="#arm">Arm I - III</a></li>
+                <li><a href="#behaebig">Behäbig</a></li>
+                <li><a href="#blind">Blind</a></li>
+                <li><a href="#blutrausch">Blutrausch</a></li>
+                <li><a href="#eingeschränkterSinn">Eingeschränkter Sinn</a></li>
+                <li><a href="#arbenblind">Farbenblind</a></li>
+                <li><a href="#fettleibig">Fettleibig</a></li>
+                <li><a href="#giftanfaellig">Giftanfällig I - II</a></li>
+                <li><a href="#haesslich">Hässlich I - II</a></li>
+                <li><a href="#hitzeempfindlich">Hitzeempfindlich</a></li>
+                <li><a href="#kaelteempfindlich">Kälteempfindlich</a></li>
+                <li><a href="#keineFlugsalbe">Keine Flugsalbe</a></li>
+                <li><a href="#keinVertrauter">Kein Vertrauter</a></li>
+                <li><a href="#koerpergebundeneKraft">Körpergebundene Kraft</a></li>
+                <li><a href="#koerperlicheAuffaelligkeit">Körperliche Auffälligkeit</a></li>
+                <li><a href="#krankheitsanfaellig">Krankheitsanfällig I - II</a></li>
+                <li><a href="#laestigeMindergeister">Lästige Mindergeister</a></li>
+                <li><a href="#lichtempfindlich">Lichtempfindlich</a></li>
+                <li><a href="#magischeEinschraenkung">Magische Einschränkung</a></li>
+                <li><a href="#nachtblind">Nachtblind</a></li>
+                <li><a href="#niedrigeAstralkraft">Niedrige Astralkraft I - VII</a></li>
+                <li><a href="#niedrigeKarmalkraft">Niedrige Karmalkraft I - VII</a></li>
+                <li><a href="#niedrigeLebenskraft">Niedrige Lebenskraft I - VII</a></li>
+                <li><a href="#niedrigeSeelenkraft">Niedrige Seelenkraft</a></li>
+                <li><a href="#niedrigeZaehigkeit">Niedrige Zähigkeit</a></li>
+                <li><a href="#pech">Pech I - III</a></li>
+                <li><a href="#pechmagnet">Pechmagnet</a></li>
+                <li><a href="#persoenlichkeitsschwaechen">Persönlichkeitsschwächen</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+                <li><a href="#artefaktgebunden">Artefaktgebunden</a></li>
+            </ul>
+
+            <table class="nachteile" id="angstvor">
+                <tr>
+                    <th>Angst vor I-III</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Held fürchtet sich derart vor etwas, dass er hierdurch in seinem Handeln eingeschränkt wird.
+                        Der Auslöser der Angst sollte nicht zu selten vorkommen.
+                        Beispiele für Ängste sind Angst vor Blut, Magie, Spinnen, Dunkelheit, dem Meer, großer Höhe, freien Flächen, engen Räumen oder vor Toten und Untoten.
+                        Grundsätzlich hat der Spielleiter bei der Frage, ob eine bestimmte Angst möglich ist oder nicht, das letzte Wort.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Pro Stufe der Angst erleidet der Held eine Stufe Furcht, so lange er dem Auslöser ausgesetzt ist.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">keine</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-8 Abenteuerpunkte pro Stufe</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="arm">
+                <tr>
+                    <th>Arm I-III</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Held ist aus der Unterschicht oder aus irgendeinem Grund verarmt.
+                        Er hat kaum Vermögen und nur wenige Ressourcen.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Durch den Nachteil Arm erhält ein Held bei der Generierung 250 Silbertaler weniger pro Stufe.
+                        Wählt er also 3 Stufen Arm, beginnt er ohne Startkapital und besitzt nur ein Kleiderpaket der Kategorie arm.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#reich">Reich</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-1 Abenteuerpunkte pro Stufe</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="artefaktgebunden">
+                <tr>
+                    <th>Artefaktgebunden</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Ein Zauberer mit diesem Nachteil ist an ein Artefakt gebunden.
+                        Eventuell ist bei der Erschaffung oder Bindung des Artefakts ein Patzer unterlaufen oder irgendeine andere magische Beeinflussung hat für die Verbindung gesorgt.
+                        Bei dem Artefakt kann es sich um ein Traditionsartefakt wie zum Beispiel einen Magierstab oder das persönliche Musikinstrument eines Elfen handeln.
+                        Es muss nicht das persönliche Traditionsartefakt sein.
+                        Auch andere Gegenstände mit starker persönlicher Bedeutung sind möglich.
+                        Ob ein Gegenstand hierfür geeignet ist, entscheidet der Meister.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Ist der Held nicht in direktem Kontakt mit dem Artefakt (dies bedeutet: Kontakt mit der Haut), kann er nur erschwert Zaubern.
+                        Dieser Nachteil erschwert Zauber um 1, wenn die Bedingung des Körperkontaktes nicht erfüllt ist.
+                        Wird das Artefakt vernichtet, kann er so lange nur mit der Erschwernis Zauber wirken, bis er selbst ein neues Artefakt gleicher Machart hergestellt hat, in das die Artefaktgebundenheit automatisch einfließt.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">Vorteil <a href="../vorteile/001vorteile.html#zauberer">Zauberer</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-10 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="behaebig">
+                <tr>
+                    <th>Behäbig</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Behäbige Personen sind deutlich langsamer als andere und brauchen länger, um eine Strecke zu überwinden.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Durch Behäbig verliert ein Held 1 Punkt von seinem Geschwindigkeit-Grundwert.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#flink">Flink</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-4 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="blind">
+                <tr>
+                    <th>Blind</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Charakter ist von Geburt an, durch eine Augenverletzung oder in Folge eine Krankheit erblindet.
+                        Er kann nichts sehen und sich nur mit seinen anderen Sinnen orientieren.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Durch den Nachteil ist ihm der Einsatz vieler Fertigkeiten erschwert oder erst gar nicht möglich.
+                        Dies gilt ebenfalls für Sonderfertigkeiten. Welche Handlungen um wie viel erschwert oder gar unmöglich sind, entscheidet der Meister.
+                        Die Blindheit ist nicht heilbar, außer durch ein Großes Wunder. Der Held erhält den Status Blind.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#herausragenderSinn">Herausragender Sinn (Sicht)</a>, keine Nachteile Einäugig, Farbenblind, Nachtblind, Eingeschränkter Sinn (Sicht)</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-50 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="blutrausch">
+                <tr>
+                    <th>Blutrausch</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Held greift wütend alles in seiner näheren Umgebung an, ohne sich unter Kontrolle zu haben.
+                        Gerade bei den Thorwalern ist der Blutrausch bekannt.
+                        Unter ihnen leben die sogenannten Swafnirskinder, die von den übrigen Thorwalern isoliert und durch ein rotes Stirnband kenntlich gemacht werden, damit man mit ihnen vorsichtig umgeht.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der Held erhält unter speziellen Umständen den Status Blutrausch.
+                        Der Blutrausch wird aktiviert, wenn der Held durch einen Angriff eine Stufe des Zustands Schmerz erleidet oder ihm seine Probe auf Willenskraft zur Aktivierung der Schlechten Eigenschaft Jähzorn misslingt.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">Schlechte Eigenschaft Jähzorn, kein Nachteil <a href="#angstvor">Angst vor Blut</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-10 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="eingeschraenkterSinn">
+                <tr>
+                    <th>Eingeschränkter Sinn</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Ein Held mit eingeschränkten Sinnen könnte über schlechtes Augenlicht verfügen, seinen Geschmackssinn durch eine Krankheit verloren haben oder durch das Alter schlechter hören.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Wer über einen Eingeschränkten Sinn verfügt, dessen Proben auf Sinnesschärfe sind um 2 erschwert, wenn die Probe den entsprechenden Sinn betrifft.
+                        Eingeschränkte Sicht erschwert zudem Proben auf Fernkampf um 2. Folgende Sinne können gewählt werden: Sicht, Gehör, Geruch & Geschmack, Tastsinn.
+                        Ein Held kann bis zu zwei eingeschränkte Sinne besitzen.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#herausragenderSinn">Herausragender Sinn</a> für den gleichen Sinn, kein Nachteil <a href="#blind">Blind (bei Sicht)</a>, kein Nachteil Taub (bei Gehör)</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">Sicht: -15 Abenteuerpunkte;<br> Gehör: -10 Abenteuerpunkte;<br> Geruch & Geschmack: -6 Abenteuerpunkte;<br> Tastsinn: -2 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="farbenblind">
+                <tr>
+                    <th>Farbenblind</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Farbenblinde Helden können keine Unterschiede zwischen Farben erkennen.
+                        Für sie ist die Welt schwarz-weiß.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Für den Abenteurer sind Farben nicht zu unterscheiden.
+                        Dies kann sich bei einigen Proben, etwa auf Alchimie („Rote Flüssigkeit in grüne Flüssigkeit schütten.“),
+                        beim Zuordnen von Wappen (Etikette), bei der Orientierung im Dschungel negativ auswirken.
+                        Ob eine Probe abgelegt werden kann und wie hoch die Erschwernis ist, entscheidet der Meister.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Nachteil <a href="#blind">Blind</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-2 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="fettleibig">
+                <tr>
+                    <th>Fettleibig</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Wenn ein Held mindestens 50% schwerer ist als bei seiner Größe üblich, gilt er als fettleibig.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der Nachteil hat zur Folge, dass Proben auf Klettern, Körperbeherrschung, Tanzen und Verbergen um 1 erschwert sind.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">Nachteil <a href="#behaebig">Behäbig</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-25 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="giftanfaellig">
+                <tr>
+                    <th>Giftanfällig I - II</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Einige Personen können Giften und anderen schädlichen Substanzen wie Rauschmitteln weniger gut widerstehen.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Eine Giftanfälligkeit verschlechtert Zähigkeit und Seelenkraft um 1 pro Stufe, wenn es darum geht, Giften zu widerstehen.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#giftresistenz">Giftresistenz</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-5 Abenteuerpunkte pro Stufe</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="haesslich">
+                <tr>
+                    <th>Hässlich I - II</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Charakter ist im Vergleich zu anderen Angehörigen seiner Spezies besonders hässlich und wirkt auf die meisten kulturschaffenden Wesen abstoßend.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Durch jede Stufe dieses Nachteils erleidet der Held eine Erschwernis von 1 auf Betören (Anbandeln, Liebeskünste), Überreden (Manipulieren, Schmeicheln) und Handel (Feilschen).</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#gutaussehend">Gutaussehend</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-10 Abenteuerpunkte pro Stufe</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="hitzeempfindlich">
+                <tr>
+                    <th>Hitzeempfindlich</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Wesen, die den Nachteil Hitzeempfindlich haben, leiden stärker unter hohen Temperaturen.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Hitzestufen werden für den Helden um 1 Stufe erhöht, sobald er mindestens unter Hitzestufe 2 leidet.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#hitzeresistenz">Hitzeresistenz</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-3 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="kaelteempfindlich">
+                <tr>
+                    <th>Kälteempfindlich</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Wesen, die den Nachteil Kälteempfindlich aufweisen, leiden stärker unter niedrigen Temperaturen.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Kältestufen werden für den Helden um 1 Stufe erhöht, sobald er mindestens unter Kältestufe 1 leidet.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#kaelteresistenz">Kälteresistenz</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-3 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="keineFlugsalbe">
+                <tr>
+                    <th>Keine Flugsalbe</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Einigen Hexen ist es nicht vergönnt, an Hexennächten Flugsalbe zu erhalten oder die Fähigkeit zu erwerben, Flugsalbe zu brauen oder zu benutzen.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der Held kann die Sonderfertigkeit Flugsalbe nicht erwerben.
+                        Dadurch wird die Sonderfertigkeit Tradition (Hexe) um 10 AP billiger.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">Vorteil <a href="../vorteile/001vorteile.html#zauberer">Zauberer</a>, Zauberertradition kann Sonderfertigkeit Flugsalbe wählen</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-25 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="keineVertrauter">
+                <tr>
+                    <th>Keine Vertrauter</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Zwar kommt es nur selten vor, dass eine Hexe kein Vertrautentier an sich bindet, aber einigen Hexen ist es aus ungeklärten Umständen einfach nie vergönnt, eines zu bekommen.
+                        Diese Hexen gelten in der Regel als Außenseiter unter den Hexen.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der Held kann die Sonderfertigkeit Vertrautenbindung nicht erwerben.
+                        Dadurch wird die Sonderfertigkeit Tradition (Hexe) um 10 AP billiger.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">Vorteil <a href="../vorteile/001vorteile.html#zauberer">Zauberer</a>, Zauberertradition kann Sonderfertigkeit Vertrautenbindung wählen</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-25 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="koerpergebundeneKraft">
+                <tr>
+                    <th>Körpergebundene Kraft</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Im Haar des Zauberers ist ein Teil seiner magischen Kraft gebunden und er verfügt über einen ausgeprägten Haarwuchs.
+                        Der Nachteil ist vor allem bei Hexen und Elfen verbreitet.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Sobald der Held, aus welchem Grunde auch immer, einen Teil seiner Haarpracht einbüßt (z.B. durch Abschneiden, Feuer etc.; unabhängig von der Länge), verliert er sofort 10 Astralpunkte (bis zu einem Minimum von 0).
+                        Diese können normal regeneriert werden.
+                        Der normale menschliche Haarverlust zählt nicht als Verlust der Haarpracht.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">Vorteil <a href="../vorteile/001vorteile.html#zauberer">Zauberer</a>, Spezies des Zauberers muss über Haare verfügen</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-5 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="koerperlicheAuffaelligkeit">
+                <tr>
+                    <th>Körperliche Auffälligkeit</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Held verfügt über eine körperliche Auffälligkeit, z.B. eine Hexensträhne, eine Warze auf der Nase, eine Hasenscharte oder einen kleinen Buckel.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Ein Held kann maximal zwei Körperliche Auffälligkeiten wählen.
+                        Die Körperliche Auffälligkeit zieht gelegentlich Erschwernisse auf Gesellschaftstalente aufgrund von Aberglaube oder Misstrauen nach sich.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">keine</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-2 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="krankheitsanfaellig">
+                <tr>
+                    <th>Krankheitsanfällig I - II</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Manche Personen können Krankheiten weniger gut widerstehen. Sie erkranken häufiger als andere Aventurier.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Eine Krankheitsanfälligkeit verschlechtert Zähigkeit und Seelenkraft um 1 pro Stufe, wenn es darum geht, Krankheiten zu widerstehen.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#krankheitsresistenz">Krankheitsresistenz</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-5 Abenteuerpunkte pro Stufe</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="laestigeMindergeister">
+                <tr>
+                    <th>Lästige Mindergeister</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Mindergeister sind kleine Elementarwesen, die zwar nicht gefährlich sind, aber lästig werden können.
+                        Einige Zauberanwender ziehen beim Wirken ihrer Magie Mindergeister geradezu an.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Jedes Mal wenn der Zauberer Astralenergie ausgibt, würfelt er mit dem W20.
+                        Ist das Ergebnis gleich oder kleiner der ausgegebenen Astralenergiemenge, tauchen Mindergeister auf und belästigen den Zauberer.
+                        Welche Art von Mindergeistern erscheinen, entscheidet der Meister je nach Situation.
+                        Beispiele sind Windbeutel, die das Haar des Zauberers selbst bei Windstille wallen lassen, Tränenlinge, die sich unter die Augen setzen, oder Feuerwusel, die Gegenstände des Zauberers erhitzen oder gar verkohlen.
+                        Außerdem sind alle Fertigkeitsproben wegen der Ablenkung um 1 erschwert.
+                        Die Mindergeister bleiben für 10 Minuten, ehe sie von selbst wieder verschwinden.
+                        Man kann nicht von mehr als einer Gruppe von Mindergeistern gleichzeitig geplagt werden.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">Vorteil <a href="../vorteile/001vorteile.html#zauberer">Zauberer</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-20 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="lichtempfindlich">
+                <tr>
+                    <th>Lichtempfindlich</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Lichtempfindliche Personen erleiden Schmerzen, wenn Sonnenlicht ihre Haut berührt.
+                        Albinos leiden oft unter Lichtempfindlichkeit, aber es gibt auch andere Gründe, aus denen ein Held diesen Nachteil haben könnte.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der Held erleidet eine Stufe Schmerz, sobald er Sonnenlicht ausgesetzt ist, das heller ist als Dämmerlicht.
+                        Diese Auswirkung lässt sich vermeiden, wenn der Betroffene seinen kompletten Körper inklusive der Augen verhüllt.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">keine</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-20 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="magischeEinschraenkung">
+                <tr>
+                    <th>Magische Einschränkung</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Anders als der Vorteil Magische Einstimmung bringt dieser Nachteil Erschwernisse für Proben auf magische Fertigkeiten.
+                        Wann immer der Zauberer nicht in einer nicht hinderlichen Umgebung ist, erleidet er eine Erschwernis.
+                        Besonders häufig ist der Fluch der Nacht, der dafür sorgt, dass der Zauberer nur bei Nacht ungehindert zaubern kann.
+                        Neben dem Fluch der Finsternis können andere Umgebungen in Frage kommen.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">In der Umgebung, für die der Nachteil gilt, hat der Zauberer bei magischen Fertigkeitsproben keine Erschwernisse, ansonsten eine von 1.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">Vorteil <a href="../vorteile/001vorteile.html#zauberer">Zauberer</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-30 Abenteuerpunkte siehe magische Einstimmung!</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="nachtblind">
+                <tr>
+                    <th>Nachtblind</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Held hat große Schwierigkeiten, im Dunkeln die Umgebung wahrzunehmen.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Sobald der Held mindestens eine Stufe Sichterschwernis durch Dunkelheit erleidet, wird diese Erschwernis für ihn um eine Stufe erhöht.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#dunkelsicht">Dunkelsicht</a>, kein Nachteil <a href="#blind">Blind</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-10 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="niedrigeAstralkraft">
+                <tr>
+                    <th>Niedrige Astralkraft I - VII</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Körper des Helden kann weniger Astralenergie speichern als die anderer Zauberer.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der AE-Grundwert sinkt durch diesen Nachteil um 1 Punkt pro Stufe des Nachteils.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">Vorteil <a href="../vorteile/001vorteile.html#zauberer">Zauberer</a>, kein Vorteil <a href="../vorteile/001vorteile.html#hoheAstralkraft">Hohe Astralkraft</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-2 Abenteuerpunkte pro Stufe</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="niedrigeKarmalkraft">
+                <tr>
+                    <th>Niedrige Karmalkraft I - VII</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Körper des Helden kann weniger Karmaenergie speichern als die anderer Geweihter.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der KE-Grundwert sinkt durch diesen Nachteil um 1 Punkt pro Stufe des Nachteils.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">Vorteil <a href="../vorteile/001vorteile.html#geweihter">Geweihter</a>, kein Vorteil <a href="../vorteile/001vorteile.html#hoheKarmalkraft">Hohe Karmalkraft</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-2 Abenteuerpunkte pro Stufe</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="niedrigeLebenskraft">
+                <tr>
+                    <th>Niedrige Lebenskraft I - VII</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Held ist körperlich weniger zäh als andere Mitglieder seiner Spezies und verträgt weniger Schaden.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der LE-Grundwert sinkt durch diesen Nachteil um 1 Punkt pro Stufe des Nachteils.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#hoheLebenskraft">Hohe Lebenskraft</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-4 Abenteuerpunkte pro Stufe</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="niedrigeSeelenkraft">
+                <tr>
+                    <th>Niedrige Seelenkraft</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Held ist empfindlicher gegen viele Zauber als andere Vertreter seiner Spezies.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der SK-Grundwert des Helden ist um 1 schlechter.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#hoheSeelenkraft">Hohe Seelenkraft</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-25 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="niedrigeZaehigkeit">
+                <tr>
+                    <th>Niedrige Zähigkeit</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Der Held ist nicht so widerstandsfähig wie andere Vertreter seiner Spezies.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der ZK-Grundwert des Helden ist um 1 schlechter.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#hoheZaehigkeit">Hohe Zähigkeit</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-25 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="pech">
+                <tr>
+                    <th>Pech I - III</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Nicht jeder Held ist mit besonders viel Glück ausgestattet.
+                        Einige Abenteurer haben sogar deutlich weniger Glück als ihre Kollegen.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Der Held startet pro Stufe des Nachteils mit 1 Schicksalspunkt weniger als üblich.
+                        Sein Maximum an Schicksalspunkten sinkt hierdurch um einen Punkt pro Stufe.
+                        Die Anzahl der Schicksalspunkte darf hierbei nicht unter 0 fallen.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">kein Vorteil <a href="../vorteile/001vorteile.html#glueck">Glück</a></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-20 Abenteuerpunkte pro Stufe</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="pechmagnet">
+                <tr>
+                    <th>Pechmagnet</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Manch ein Held ist wahrlich vom Unglück verfolgt.
+                        Diese als Pechmagneten bekannten Personen sind in der Regel diejenigen, die bei der zufälligen Bestimmung, wen es trifft, ganz oben auf der Liste des Schicksals stehen.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">Bei jeder zufälligen Bestimmung des Meisters (Welcher Held wird von dem Pfeil getroffen?
+                        Wer stand von der Gruppe in der Nähe der Falle, als sie ausgelöst wurde?) sind die Chancen bei einem Abenteurer mit diesem Nachteil mindestens doppelt
+                        so hoch wie die eines Helden ohne Pechmagnet.
+                        Der Nachteil sollte in der Heldengruppe nicht bei allen Helden auftreten, da sich der Nachteil ansonsten aufhebt.
+                        Dementsprechend erfordert die Wahl von Pechmagnet Rücksprache mit dem Meister.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">keine</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-5 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+            <table class="nachteile" id="persoenlichkeitsschwaechen">
+                <tr>
+                    <th>Persönlichkeitsschwächen</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Beschreibung:</a></strong></td>
+                    <td class="blocksatz">Persönlichkeitsschwächen stellen extrem unangenehme Verhaltensweisen oder Angewohnheiten des Helden dar.
+                        Sie beeinträchtigen das Leben des Helden mit anderen Mitmenschen erheblich.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Regel:</a></strong></td>
+                    <td class="blocksatz">In passenden Situationen kann der Meister durchaus für die angegebenen Fertigkeiten eine Erschwernis von 1 aussprechen, wenn er dies für angemessen hält.
+                        Es dürfen bis zu zwei Persönlichkeitsschwächen pro Held gewählt werden.</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">Vorraussetzung:</a></strong></td>
+                    <td class="blocksatz">keine</td>
+                </tr>
+                <tr>
+                    <td><strong><a href="../../regeln/regelwerk/regelwRegelwerk.html#vorteile">AP-Wert:</a></strong></td>
+                    <td class="blocksatz">-10 Abenteuerpunkte</td>
+                </tr>
+            </table>
+            <br>
+        </div>
+    </div>
+</body>
+</html>
