@@ -141,7 +141,7 @@ table.vorteile th{
 table.vorteile tr{
     border: 1px solid #dddddd;
 }
-/*Style für Vorteile Tabellen*/
+/*Style für Nachteile Tabellen*/
 table.nachteile{
     border-collapse: collapse;
     border: 1px solid #dddddd;
@@ -150,7 +150,7 @@ table.nachteile{
     max-width: 100%;
 }
 table.nachteile th{
-    background-color: #554141;
+    background-color: #b07769;
 }
 table.nachteile tr{
     border: 1px solid #dddddd;
@@ -167,4 +167,23 @@ table.nachteile tr{
     padding: 10px 10px;
     background-color: #cddbc1;
     text-align: justify;
+}
+/*Style für Körpertalente*/
+table.koerpertalente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #738B82;
+    border-radius: 10px;
+}
+table.talente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #dddddd;
+}
+table.talente th{
+    background-color: #D3AF9B;
 }
