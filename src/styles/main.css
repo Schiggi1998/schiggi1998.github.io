@@ -187,3 +187,22 @@ table.talente{
 table.talente th{
     background-color: #D3AF9B;
 }
+/*Style für Gesellschaftstalente*/
+table.gesellschaftstalente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #B47D6F;
+    border-radius: 10px;
+}
+table.talente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #dddddd;
+}
+table.talente th{
+    background-color: #D3AF9B;
+}
