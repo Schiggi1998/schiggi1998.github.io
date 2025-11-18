@@ -206,3 +206,22 @@ table.talente{
 table.talente th{
     background-color: #D3AF9B;
 }
+/*Style für Naturtalente*/
+table.naturtalente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #9D9875;
+    border-radius: 10px;
+}
+table.talente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #dddddd;
+}
+table.talente th{
+    background-color: #D3AF9B;
+}
