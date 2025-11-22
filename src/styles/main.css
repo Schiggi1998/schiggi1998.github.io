@@ -161,6 +161,7 @@ table.nachteile tr{
     background-color: #dddddd;
     border-left: 5px solid black;
     text-align: justify;
+    border-radius: 10px;
 }
 /*Style für die Allgemeinen Informationen*/
 .allgemeineinformationen{
