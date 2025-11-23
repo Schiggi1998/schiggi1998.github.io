@@ -1,0 +1,55 @@
+table.talente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #6e6868;
+}
+table.talente th{
+    background-color: #D3AF9B;
+}
+/*Style für Körpertalente*/
+table.koerpertalente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #738B82;
+    border-radius: 10px;
+}
+/*Style für Gesellschaftstalente*/
+table.gesellschaftstalente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #B47D6F;
+    border-radius: 10px;
+}
+/*Style für Naturtalente*/
+table.naturtalente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #9D9875;
+    border-radius: 10px;
+}
+/*Style für Wissenstalente*/
+table.wissenstalente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #919CBB;
+    border-radius: 10px;
+}
+/*Style für Handwerkstalente*/
+table.handwerkstalente{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: #DEBF90;
+    border-radius: 10px;
+}
