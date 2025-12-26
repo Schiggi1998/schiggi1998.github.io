@@ -8,3 +8,13 @@ table.sonderfertigkeiten{
 table.sonderfertigkeiten th{
     background-color: #789088;
 }
+table.kampffertigkeiten{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #6e6868;
+}
+table.kampffertigkeiten th{
+    background-color: #DEBF8F;
+}
