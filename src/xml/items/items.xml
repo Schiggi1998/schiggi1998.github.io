@@ -1,0 +1,32 @@
+<catalog>
+    <item>
+        <id>0001</id>
+        <name>Becher</name>
+        <gewicht>0,1 Stein</gewicht>
+        <preis>0,3 Silbertaler</preis>
+    </item>
+    <item>
+        <id>0002</id>
+        <name>Beil/Handaxt</name>
+        <gewicht>0,75 Stein</gewicht>
+        <preis>20 Silbertaler</preis>
+    </item>
+    <item>
+        <id>0003</id>
+        <name>Essbesteck</name>
+        <gewicht>0,1 Stein</gewicht>
+        <preis>0,5 Silbertaler</preis>
+    </item>
+    <item>
+        <id>0004</id>
+        <name>Feuerstein und Stahl</name>
+        <gewicht>0,25 Stein</gewicht>
+        <preis>3 Silbertaler</preis>
+    </item>
+    <item>
+        <id>0005</id>
+        <name>Geldbeutel</name>
+        <gewicht>0,05 Stein</gewicht>
+        <preis>1 Silbertaler</preis>
+    </item>
+</cataalog>

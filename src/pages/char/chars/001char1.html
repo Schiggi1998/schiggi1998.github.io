@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../../styles/main.css">
     <script src="../../../js/navBar.js"></script>
+    <script src="../../../scripts/items/getItems.js"></script>
 </head>
 <body>
     <div class="mobile-container">
@@ -23,14 +24,8 @@
         </div>
 
         <div style="padding-left: 16px;">
-            <h3>Chars</h3>
-
-            <ul class="mainList">
-                <li><a href="#">Hallo</a></li>
-
-            </ul>
+            <table id="itemList"></table>
         </div>
-        <form action="../../../php/items/getItemsFromServer.php" action="post"></form>
     </div>
 </body>
 </html>
