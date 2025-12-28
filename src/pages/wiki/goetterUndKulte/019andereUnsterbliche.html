@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <script src="../../../js/navBar.js"></script>
+</head>
+<body>
+    <div class="mobile-container">
+        <div class="topnav">
+            <a href="../wikimain.html" class="active">Wiki</a>
+            <div id="myLinks">
+                <a href="../../abenteuer/abenteuermain.html">Abenteuer</a>
+                <a href="../../../../index.html">Home</a>
+                <a href="../../char/001charmain.html">Charakter</a>
+                <a href="../../regeln/regelnmain.html">Regelwerke</a>
+                <a href="../wikimain.html">Wiki</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="navbarOeffnen()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div style="padding-left: 16px; padding-right: 14px;">
+            <h2 class="center">Andere Unsterbliche</h2>
+
+            <p class="blocksatz">
+                Das Pantheon der Zwölfgötter ist trotz seines Namens nicht ausschließlich auf die Zwölfgötter beschränkt, die von der Götterfeste Alveran aus herrschen.
+                Vielmehr gibt es eine Vielzahl von Halbgöttern, die jeweils als Sprösslinge der Zwölfe gelten.
+                Dabei kann es sich den Legenden nach entweder um Abkömmlinge zweier Götter oder einer Gottheit und eines Sterblichen handeln.
+                Manchen Göttern sagt man auch nach, dass sie aus sich selbst heraus eine Halbgottheit erschaffen haben, sei es durch Abspaltung eines Aspekts oder durch bloßen Willen.
+                Nicht alle Halbgötter werden überall auch als solche angesehen und manches Volk verehrt eine Wesenheit, die im Zwölfgötterglauben als Halbgott gilt, sogar höher als seine vermeintlichen Eltern.
+                Zu den Halbgöttern werden auch solche Wesenheiten gezählt, die von einem Volk verehrt werden und die über so viel Macht verfügen, dass auch der Zwölfgötterkult sie nur schwerlich außer Acht lassen kann.
+                Häuig wurden solche Fremdgottheiten als Halbgötter in das erweiterte Pantheon aufgenommen.
+                Gefolge und Boten der Götter, die im Auftrag der jeweiligen Gottheit deren Prinzipien in die Welt tragen, werden ebenfalls in großer Zahl verehrt.
+                Beispiele für solche Alveraniare („von Alveran Gesandte“) sind etwa der Totenrabe Golgari oder der Traumbringer Bishdariel im Boronkult, Uthar, der grimme Wächter des Totenreiches, oder die Zwölf Winde, die dem launischen Meeresgott Efferd gehorchen sollen.
+                Große Verehrung erfahren auch die sechs Hohen Drachen, die nach dem ersten Drachenkrieg der Legende nach ebenfalls Einzug nach Alveran erhielten:<br>
+                • <strong>Branibor</strong> mit den eisernen Flügeln, ein Diener des Praios, Drache der Gerechtigkeit<br>
+                • <strong>Darador</strong> mit den hundertfarbigen Flügeln, ein Diener des Praios, Drache der Antimagie<br>
+                • <strong>Famerlor</strong> mit dem Löwenhaupt, Gemahl Rondras, Wächter Alverans<br>
+                • <strong>Naclador</strong>, auch Varsinor genannt, ein Vertrauter Hesindes, Drache der Weisheit<br>
+                • <strong>Menacor</strong>, der sechslügelige Wächter des Limbus<br>
+                • <strong>Yalsicor</strong> mit dem Ziegenhaupt, Freund Travias, Drache der Freundschaft
+            </p>
+            <p class="blocksatz" id="aves">
+                <strong>Aves, der Wanderlustige</strong><br>
+                Der häuig als Paradiesvogel dargestellte Halbgott gilt im Zwölfgötterglauben als Sohn von Phex und Rahja.
+                Er steht als Namenspate für den Kontinent Aventurien und ist der Schutzherr der Wanderlust, der Abenteuer und der Reisen.
+                Aves werden große Neugier, Wagemut und jede Menge Lust auf das Unbekannte zugeschrieben.
+                Seine Geweihten sind meist äußerst umgängliche und kontaktfreudige Menschen und man trifft sie fast immer auf Reisen an.
+                Nur selten sind sie einem Abenteuer abgeneigt und gerne spenden sie Reisenden ihren Segen.
+            </p>
+            <p class="blocksatz" id="iirn">
+                <strong>Iirn, die Frühlingsbringerin</strong><br>
+                Sie wird in Schwanengestalt als Tochter Firuns und einer Sterblichen verehrt, einige wenige sehen sie auch als abtrünnige Tochter Efferds an.
+                Viele Gläubige wagen es nicht, sich direkt an den grimmigen Firun zu wenden, und bitten daher seine milde Tochter um Vermittlung, die häuig mit den vier Himmelsschwänen dargestellt wird.
+                Iirn gilt als Frühlingsbotin und Schutzherrin aller Gemeinschaften sowie als hilfsbereite Jagdgefährtin.
+                Viele Tempel des Firun werden heute von Iirngeweihten betreut.
+            </p>
+            <p class="blocksatz" id="kor">
+                <strong>Kor, der Karfunkelherzige</strong><br>
+                Der blutrünstige Schnitter soll ein Kind von Rondra und dem Hohen Drachen Famerlor sein.
+                Er liebt das Schlachtengetümmel und den wilden Kampf und man sagt, er trage als Erbe seines Vaters ein Herz aus drachischem Karfunkelstein in der Brust und sei daher besonders mitleidlos.
+                Größte Verehrung erfährt er unter Söldnern und Kämpfern, die mehr auf Effektivität als auf Ehrenhaftigkeit setzen.
+                Die heilige Schrift des Kor ist der Khunchomer Kodex, in dem Rechte und Plichten des Soldvolks sowie die Vergütung für Waffendienste niedergelegt sind.
+            </p>
+            <p class="blocksatz" id="levthan">
+                <strong>Levthan, der Brünstige Mannwidder</strong><br>
+                Der widderköpige Levthan gilt als Sohn Rahjas und steht für ungezügelte Lust und männliche Potenz.
+                Ein unbezähmbarer Störenfried soll er sein, der sich sogar an der Halbgöttin (oder Göttin) Satuaria vergangen hat, die bei den aventurischen Hexen große Verehrung genießt.
+                Noch heute soll er ihnen an besonders zaubermächtigen Orten in den Hexennächten nachstellen.
+                Viele Töchter Satuarias aber begegnen ihm gleich ihrer verehrten Göttin, hin- und hergerissen zwischen Hass und Leidenschaft.
+            </p>
+            <p class="blocksatz" id="mada">
+                <strong>Mada, die Gebannte</strong><br>
+                Die Hesindetochter Mada soll einst den Sterblichen die Magie gebracht haben.
+                Praios bestrafte sie dafür, indem er sie in einen Stein bannte und ihn an den Himmel setzte.
+                So leuchtet seitdem der silbrige Mond vom Firmament, Madamal genannt, in dessen Schein Magie besonders gut zu wirken sein soll.
+                Auch die Nivesen kennen Mada, allerdings als menschlichen Frevler, der den Frieden zwischen Himmelswölfen und Menschen gefährdete.
+            </p>
+            <p class="blocksatz" id="marbo">
+                <strong>Marbo, die Sanfte</strong><br>
+                Die sanfte Marbo wird als Kind Borons und einer Sterblichen verehrt und hat - ähnlich wie Iirn - die Aufgabe, ein gutes Wort für die Sterblichen bei ihrem Vater einzulegen.
+                Sie wird häuig für einen schnellen und gnadenvollen Tod und die sichere Heimkehr der Seelen in Borons Hallen angerufen.
+                Dass sie häuig mit Geiern assoziiert wird, gibt allerdings vielen Gelehrten Rätsel auf.
+            </p>
+            <p class="blocksatz" id="nandus">
+                <strong>Nandus, der Herr der Rätsel</strong><br>
+                Nandus gilt als Kind von Hesinde und Phex und vereint ihre Weisheit mit seiner List und Aufmüpigkeit.
+                Er propagiert Volksbildung, das Streben nach Erkenntnis und ist ein großer Freund von Rätseln.
+                Viele der beinahe ketzerischen Gedanken, die seine Geweihten unter das Volk tragen, machen Nandusgeweihte zur Zielscheibe von Anfeindungen und manchmal sogar von Verfolgung durch weltliche Autoritäten und Machthaber.
+                Nandus gilt der Legende nach als göttlicher Vater der mächtigen Zauberer Rohal und Borbarad, die in vergangenen Jahrhunderten immer wieder in die Welt zurückkehrten, um sich erbittert zu bekämpfen.
+            </p>
+            <p class="blocksatz" id="simia">
+                <strong>Simia, der Einfallsreiche</strong><br>
+                Der im Zwölfgötterglauben als Sohn von Ingerimm und Tsa Verehrte vereint den Schöpferwillen seines Vaters mit der kreativen und freiheitsliebenden Art seiner Mutter.
+                Simia gilt als Gott des Erindungsreichtums, und auch wenn es keine eigene Geweihtenschaft des Simia gibt, erhebt sich doch ein prächtiger Tempel in Gareth.
+                Dort wurde auch das Prisma erfunden, das Praios` Sonnenlicht in Tsas Regenbogen zu verwandeln mag.
+                Auch bei den Zwergen ist Simia bekannt, die ihn jedoch kurioserweise als Tochter Angroschs verehren.
+            </p>
+            <p class="blocksatz" id="swafnir">
+                <strong>Swafnir, der Gottwal</strong><br>
+                In Gestalt eines weißen Pottwals durchmisst der Sohn von Efferd und Rondra die Weltmeere.
+                Er gilt als Herr der Seefahrt und Schutzpatron gegen alle Arten von Meeresungeheuern.
+                Die größte Verehrung erfährt er bei den Thorwalern.
+                Den streitbaren Nordleuten gilt er sogar als Hauptgott, seit er ihre Vorfahren, die Hjaldinger, einst über das Meer der Sieben Winde nach Aventurien geführt haben soll, und sie sehen sich als sein auserwähltes Volk.
+                Ihren Sagen nach kämpft er unablässig gegen die gigantische Seeschlange Hranngar, den Ursprung alles Bösen.
+            </p>
+            <p class="blocksatz" id="ucuri">
+                <strong>Ucuri, der Götterbote</strong><br>
+                Ucuri wurde von Praios aus sich selbst heraus geschaffen.
+                Der falkengestaltige Götterbote wird immer dann ausgesandt, wenn es Gewichtiges zwischen den Göttern zu bereden gilt.
+                Nur die verderbtesten Sterblichen würde es je wagen, einen Ucuriaten anzugreifen.
+                Die Ordensmitglieder sind als Herolde in allen Teilen der Welt unterwegs, um wichtige Dokumente und Nachrichten der zwölfgöttlichen Kirchen zu überbringen.
+            </p>
+            <p class="blocksatz" id="xeledon">
+                <strong>Xeledon, der Spötter</strong><br>
+                Der Sohn Hesindes und eines Sterblichen erfährt nur wenig Verehrung, denn er macht sich mit Vorliebe über die Unvollkommenheit weltlicher Errungenschaften lustig.
+                Nur Hohn und Spott hat er für die Leistungen der Sterblichen übrig.
+                Es gibt zahlreiche Geschichten über den Halbgott mit der linken Zunge, wie er Handwerkserzeugnisse, Kunstwerke und so manches Lebenswerk verunglimpft.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
