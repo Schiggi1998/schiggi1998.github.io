@@ -5,7 +5,7 @@ function loadDoc(){
             myFunction(this);
         }
     };
-    xhttp.open("GET", "../../xml/item/items.xml", true);
+    xhttp.open("GET", "../../xml/item/items.xml", false);
     xhttp.send();
 }
 
